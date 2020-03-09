@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://www.which.co.uk/reviews",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 30000,
+  "runTestsKeptInMemory": 1,
+  "numTestsKeptInMemory": 1,
+  "responseTimeout": 50000,
+  "pageLoadTimeout": 100000,
+  "env": {
+    "ignoreApplicationExceptions": true,
+    "olmGetPause": 500,
+    "RETRIES": 0
+  },
+  "ignoreTestFiles": "*.js"
+}

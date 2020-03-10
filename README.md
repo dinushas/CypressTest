@@ -36,4 +36,5 @@ To avoid making our step definitions global, we also add this configuration to o
 ========================================================================
 
 How to run cypress
-Go to command prompt and enter - npx cypress open
+
+Go to command prompt type and enter - npx cypress open

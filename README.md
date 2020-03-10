@@ -2,7 +2,7 @@
 
 Installing Cypress
 
-Install Cypress via npm:
+Install Cypress via npm
 
 Create a new folder called CypressTest in C drive and open command prompt and go to that path (Example:- C:/CypressTest - cd /your/project/path)
 and type -:  npm install cypress --save-dev
@@ -33,6 +33,7 @@ To avoid making our step definitions global, we also add this configuration to o
   "nonGlobalStepDefinitions": true
 }
 
+========================================================================
 
 How to run cypress
 Go to command prompt and enter - npx cypress open

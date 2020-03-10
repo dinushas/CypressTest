@@ -10,7 +10,7 @@
   "pageLoadTimeout": 100000,
   "env": {
     "ignoreApplicationExceptions": true,
-    "olmGetPause": 500,
+    "pause": 500,
     "RETRIES": 0
   },
   "ignoreTestFiles": "*.js"

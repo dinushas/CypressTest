@@ -1,7 +1,5 @@
 Feature: The Televistion
 
-Background: Check URL
-
 Scenario: Verify the link on the page
     Given I open Televistion page
     Then user verify the link on the page

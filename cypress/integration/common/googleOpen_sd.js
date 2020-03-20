@@ -1,11 +1,17 @@
 //import { Given } from "cypress-cucumber-preprocessor/steps";
-import { logintest } from '../../support/PageObjects/loginTest_po';
+import { login } from '../../support/PageObjects/Login_po';
 
-then('I open Televistion page', () => {
+beforeEach(function () {
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
-  logintest.goToPage();
+})
+
+then('user open google page', () => {
+  // Cypress.on('uncaught:exception', (err, runnable) => {
+  //   return false;
+  // });
+  login.goToPage();
   //cy.wait(10000);
 });
 

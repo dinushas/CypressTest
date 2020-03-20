@@ -1,5 +1,5 @@
-//import { Given } from "cypress-cucumber-preprocessor/steps";
-import { logintest } from '../../support/PageObjects/loginTest_po';
+/* //import { Given } from "cypress-cucumber-preprocessor/steps";
+import { login } from '../../support/PageObjects/Login_po';
 
 Then('user clicks on compare check box', () => {
   cy.wait(10000);
@@ -34,3 +34,4 @@ Then('user checks compare check box uncheck', () => {
   cy.get('._1e2c2').should('not.be.checked')
   
 });
+ */

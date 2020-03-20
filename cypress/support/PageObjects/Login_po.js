@@ -1,6 +1,6 @@
 import {BasePage} from './BasePage';
 
-class LoginTest extends BasePage {
+class Login extends BasePage {
   constructor () {
     super();
 
@@ -9,9 +9,8 @@ class LoginTest extends BasePage {
   }
 
   goToPage () {
-    cy.visit('https://www.which.co.uk/reviews', { timeout: 30000 });
-    cy.get('.b_co').click();
-    cy.get('.b_ay').contains('Televisions').click({ force: true });
+    cy.visit('/', { timeout: 30000 });
+    
   }
 
   verifyGroupListed (data) {
@@ -19,4 +18,4 @@ class LoginTest extends BasePage {
   }
 }
 
-export const logintest = new LoginTest();
+export const login = new Login();
